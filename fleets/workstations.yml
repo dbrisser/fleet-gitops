@@ -71,7 +71,7 @@ controls:
         labels_include_all:
           - Department - Engineering
       - paths: ../platforms/macos/declaration-profiles/*.json
-      - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
+#      - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
