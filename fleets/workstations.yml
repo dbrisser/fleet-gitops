@@ -72,6 +72,7 @@ controls:
           - Department - Engineering
 #     - paths: ../platforms/macos/declaration-profiles/*.json
 #      - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
+  enable_recovery_lock_password: true
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
@@ -86,7 +87,6 @@ controls:
   #   • https://fleetdm.com/guides/enforce-disk-encryption
   ###########################################################
     enable_disk_encryption: true
-    enable_recovery_lock_password: true
   ###########################################################
   # Managed OS updates
   #
