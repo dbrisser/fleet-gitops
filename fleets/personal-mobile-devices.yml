@@ -110,6 +110,9 @@ software:
     #   display_name: "Slack"
     #   self_service: true
     #   setup_experience: true
+  fleet_maintained_apps:
+    - slug: microsoft-word/darwin
+      self_service: true
   packages:
     - path: ../platforms/windows/software/cloudflare-warp.yml
       self_service: false
